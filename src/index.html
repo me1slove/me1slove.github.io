@@ -32,8 +32,17 @@
 
 <div>
 <h2>Обо мне</h2>
+<br>
 <img src="" alt="Упс, картинки нет">
-<span></span>
+<br>
+<span>
+	Здесь должен быть текст обо мне
+</span>
+<br>
+<span>
+	<small>Здесь тоже должен быть текст, но поменьше</small>
+</span>
+<br>
 <input type="file">
 </div>
 
@@ -60,30 +69,74 @@
 
 <h5>
 	<h6>Название проекта</h6>
-<span>Какоой-то текст</span>
+<span>Какой-то текст</span>
 </h5>
 </div>
 
 <div>
 	<h2>Рассчёт стоимости</h2>
 <span>Тип сайта</span>
-<input type="check box" name="Выберите пункт">
+<select name="site type" id="list" multiple>
+	<option value="opt1">Тип сайта 1</option>
+<option value="opt2">Тип сайта 2</option>
+<option value="opt3">Тип сайта 3</option>
+<option value="opt4">Тип сайта 4</option>
+</select> 
 <br>
 <span>Дизайн</span>
-<input type="check box" name="Выберите пункт">
+<select name="design" id="list" multiple>
+	<option value="opt1">Дизайн 1</option>
+<option value="opt2">Дизайн 2</option>
+<option value="opt3">Дизайн 3</option>
+<option value="opt4">Дизайн 4</option>
+</select> 
 <br>
 <span>Адаптивность</span>
-<input type="check box" name="Выберите пункт">
+<select name="adapt" id="list" multiple>
+	<option value="opt1">Адаптивность 1</option>
+<option value="opt2">Адаптивность 2</option>
+<option value="opt3">Адаптивность 3</option>
+<option value="opt4">Адаптивность 4</option>
+</select> 
 <br>
 <span>Строки<br>Стоимость</span>
 </div>
 
 <div>
 	<h2>Немного статистики</h2>
+<img src="" alt="Упс, картинки нет">
+<p>
+<b>Цифра статистики</b>
+	<small>Пояснение статистики</small>
+</p>
+
+<img src="" alt="Упс, картинки нет">
+<p>
+<b>Цифра статистики</b>
+	<small>Пояснение статистики</small>
+</p>
+<img src="" alt="Упс, картинки нет">
+<p>
+<b>Цифра статистики</b>
+	<small>Пояснение статистики</small>
+</p>
+<img src="" alt="Упс, картинки нет">
+<p>
+<b>Цифра статистики</b>
+	<small>Пояснение статистики</small>
+</p>
+
 </div>
 
 <div>
 	<h2>Отзывы</h2>
+	<img src="" alt="Упс, картинки нет">
+	<p>
+		Текст отзыва
+	</p>
+	<p>
+		<small>Второй текст отзыва (Кто его оставил)</small>
+	</p>
 </div>
 
 <footer>
@@ -97,7 +150,7 @@
 <form action="'">
 <input type="text" placeholder="Имя">
 <input type="text" placeholder="Эмейл">
-<input type="text" placeholder="Сообщение">
+<textarea cols="60" rows="10"></textarea>
 <input type="submit" value="Отправить">
 </form>
 
